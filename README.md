@@ -2,6 +2,10 @@
 
 This repository comprises a set of PE executable files encompassing a diverse array of code. Its primary goal is to facilitate testing the accuracy of bin2bin transformations. We are focused on assessing the effectiveness of our binary rewriting capabilities, particularly when applied to substantial binaries exceeding 200MB which may engaging in various "odd" behaviors.
 
+### Why?
+
+Most research papers on the topic of binary rewriting usually targets ELF files. Majority of these papers use the binutils that gnu ships. We are building software to protect windows executable files and I couldnt find a large repo with pre-compiled test bins ready to use. That is why this exists.
+
 ### Terminology
 
 - **bin2bin**: The process of reading in a binary file, applying transformations, and producing an output binary file.
