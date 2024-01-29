@@ -33,5 +33,6 @@ The test bins consist of tests from the following projects:
 - openssl - https://github.com/openssl/openssl/tree/master/test
 - llvm - [JIT Fibonacci](https://github.com/llvm/llvm-project/tree/main/llvm/examples/Fibonacci), [IRTransforms](https://github.com/llvm/llvm-project/tree/main/llvm/examples/IRTransforms), [OrcV2Examples](https://github.com/llvm/llvm-project/tree/main/llvm/examples/OrcV2Examples), [clang](https://clang.llvm.org/docs/UsersManual.html)
 - coremark - https://github.com/backengineering/coremark-pe
+- windows_seh_tests - https://github.com/Microsoft/windows_seh_tests
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
