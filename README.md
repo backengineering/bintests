@@ -1,4 +1,4 @@
-# Binary Rewriting Test Suite - PE
+# Binary Rewriting Test Suite
 
 This repository comprises a set of PE executable files encompassing a diverse array of code. Its primary goal is to facilitate testing the accuracy of bin2bin transformations. We are focused on assessing the effectiveness of our binary rewriting capabilities, particularly when applied to substantial binaries exceeding 200MB which may engaging in various "odd" behaviors.
 
