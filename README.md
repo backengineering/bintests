@@ -35,3 +35,7 @@ The test bins consist of tests from the following projects:
 - coremark - https://github.com/backengineering/coremark-pe
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
+
+### How To Use The Tests
+
+Any files inside of the `32bit/` and `64bit/` folders can be executed on the commandline. You should run the original exe, save the stdout, transform the PE, then run it again and compare the new stdout. The original and the transformed should be the same. If not something is broken!
