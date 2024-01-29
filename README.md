@@ -24,10 +24,7 @@ Consider the set of all possible code as M, the set of code produced by the comp
 
 *Informal*
 
-Well-behaved functions encompass most functions emitted by a compiler, with a few specific exceptions. These exceptions include:
-
-- Functions with relocations to memory outside of the binary itself.
-- Functions with computed references into the middle of another compiled function.
+Well-behaved functions encompass most functions emitted by a compiler, with a few specific exceptions.
 
 ### Test List
 
