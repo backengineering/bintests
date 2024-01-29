@@ -4,7 +4,7 @@ This repository comprises a set of PE executable files encompassing a diverse ar
 
 ### Why?
 
-Most research papers on the topic of binary rewriting usually targets ELF files. Majority of these papers use the binutils that gnu ships. We are building software to protect windows executable files and I couldnt find a large repo with pre-compiled test bins ready to use. That is why this exists.
+Most research papers on the topic of binary rewriting usually targets ELF files. Majority of these papers use the binutils that gnu ships. We are building software to protect windows executable files and I couldnt find a large repo with pre-compiled test bins ready to use. That is why this exists. This is also used by our CI workflows to test our code as we write it. Very useful!
 
 ### Terminology
 
