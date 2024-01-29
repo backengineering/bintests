@@ -1,6 +1,6 @@
 # Binary Rewriting Test Suite
 
-This repository comprises a set of PE executable files encompassing a diverse array of code. Its primary goal is to facilitate testing the accuracy of bin2bin transformations. We are focused on assessing the effectiveness of our binary rewriting capabilities, particularly when applied to substantially large binaries exceeding 200MB which may have various "odd" behaviors.
+This repository comprises a set of PE executable files encompassing a diverse array of code. Its primary goal is to facilitate testing the accuracy of bin2bin transformations. We are focused on assessing the effectiveness of our binary rewriting capabilities, particularly when applied to substantially large binaries exceeding 200MB which may have various "odd" behaviors. ***For now this repo will only contain x86 executables.***
 
 ### Usage 
 
@@ -22,6 +22,6 @@ The test bins consist of tests from the following projects:
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
 
-### Compile Options
+### Compile Options & Binary Information
 
 Most bins will be compiled with /O2, /GL, and /LTCG. However not all bins will be compiled with these options. Real world bins will have a wide range of optimization/compiler options so we try to replicate this by not having every single binary use /O2, /GL, etc. Its important to note this because code compiled with /GL you cannot assume volitile registers are really volitile. The compiler can do some non-abi stuff with functions inside of the binary.
