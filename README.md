@@ -12,7 +12,7 @@ This repository comprises a set of PE executable files encompassing a diverse ar
 
 *Formal*
 
-Consider the set of all possible code as M, the set of code produced by the compiler from a source language as J, and well-behaved code as the subset P. P is a subset of J, and J is a subset of M.
+Consider the set of all possible code as M, the set of code produced by the compiler from a source language as J, and well-behaved code as the set P. P is a subset of J, and J is a subset of M.
 
 *Informal*
 
