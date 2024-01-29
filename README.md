@@ -10,22 +10,6 @@ Any PE files under `32bit/` and `64bit/` can be executed on the commandline. The
 
 Most research papers on the topic of binary rewriting usually targets ELF files. Majority of these papers use the binutils that gnu ships. We are building software to protect windows executable files and I couldnt find a large repo with pre-compiled test bins ready to use. That is why this exists. This is also used by our CI workflows to test our code as we write it. Very useful!
 
-### Terminology
-
-- **bin2bin**: The process of reading in a binary file, applying transformations, and producing an output binary file.
-- **Transformations**: Encompassing actions such as obfuscation, simplification, etc.
-- **Well-Behaved Code** (Defined below)
-
-### Well-Behaved Code
-
-*Formal*
-
-Consider the set of all possible code as M, the set of code produced by the compiler from a source language as J, and well-behaved code as the set P. P is a subset of J, and J is a subset of M.
-
-*Informal*
-
-Well-behaved functions encompass most functions emitted by a compiler, with a few specific exceptions.
-
 ### Test List
 
 The test bins consist of tests from the following projects:
