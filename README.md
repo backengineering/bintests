@@ -21,3 +21,7 @@ The test bins consist of tests from the following projects:
 - windows_seh_tests - https://github.com/Microsoft/windows_seh_tests
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
+
+### Compile Options
+
+Most bins will be compiled with /O2, /GL, and /LTCG. However not all bins will be compiled with these options. Real world bins will have a wide range of optimization/compiler options so we try to replicate this by not having every single binary use /O2, /GL, etc. Its important to note this because code compiled with /GL you cannot assume volitile registers are really volitile. The compiler can do some non-abi stuff with functions inside of the binary.
