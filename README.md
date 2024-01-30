@@ -14,6 +14,7 @@ Most research papers on the topic of binary rewriting usually targets ELF files.
 
 The test bins consist of tests from the following projects:
 
+- chrome - https://developer.chrome.com/blog/chrome-for-testing/
 - testfloat - https://github.com/backengineering/testfloat-pe
 - openssl - https://github.com/openssl/openssl/tree/master/test
 - llvm - [JIT Fibonacci](https://github.com/llvm/llvm-project/tree/main/llvm/examples/Fibonacci), [IRTransforms](https://github.com/llvm/llvm-project/tree/main/llvm/examples/IRTransforms), [OrcV2Examples](https://github.com/llvm/llvm-project/tree/main/llvm/examples/OrcV2Examples), [clang](https://clang.llvm.org/docs/UsersManual.html)
