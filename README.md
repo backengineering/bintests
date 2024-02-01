@@ -14,6 +14,7 @@ Most research papers on the topic of binary rewriting usually targets ELF files.
 
 The test bins consist of tests from the following projects:
 
+- zasm - https://github.com/zyantific/zasm/tree/master/examples
 - chrome - https://developer.chrome.com/blog/chrome-for-testing/
 - testfloat - https://github.com/backengineering/testfloat-pe
 - openssl - https://github.com/openssl/openssl/tree/master/test
