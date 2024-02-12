@@ -2,4 +2,6 @@
 
 - clang-cl
 - chrome
-- bins for unit tests
+- jump table unit tests
+- recursive functions
+- noreturn functions
