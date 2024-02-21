@@ -5,3 +5,4 @@
 - jump table unit tests
 - recursive functions
 - noreturn functions
+- corkami weird PE files (testing our parser)
