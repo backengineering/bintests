@@ -23,6 +23,7 @@ The test bins consist of tests from the following projects:
 - windows_seh_tests - https://github.com/Microsoft/windows_seh_tests
 - windows compiler tests (more seh) - https://github.com/Microsoft/compiler-tests
 - corkami weird pe files - https://github.com/corkami/pocs/tree/master/PE/bin
+- vulnerable windows drivers - https://github.com/namazso/physmem_drivers
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
 
