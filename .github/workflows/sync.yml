@@ -32,7 +32,7 @@ jobs:
       - name: Sync Files to S3
         id: sync
         run: |
-          aws s3 sync ./${{matrix.directory}} s3://${{ secrets.BUCKET_NAME }}/tests/${{ matrix.directory }} --exclude "*" --include "*.exe" --include "*.pdb" --no-progress
+          aws s3 sync ./${{matrix.directory}} s3://${{ secrets.BUCKET_NAME }}/tests/${{ matrix.directory }}/ --exclude "*" --include "*.exe" --include "*.pdb" --no-progress
           
       # - name: Check Changes
       #   id: changes
