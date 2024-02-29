@@ -9,6 +9,7 @@ on:
       - '32bit/**/*.pdb'
       - '64bit/**/*.exe'
       - '64bit/**/*.pdb'
+  workflow_dispatch:  
 
 jobs:
   sync-and-notify:
