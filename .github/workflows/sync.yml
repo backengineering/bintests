@@ -1,0 +1,55 @@
+name: Synchronize Binaries
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '32bit/**/*.exe'
+      - '32bit/**/*.pdb'
+      - '64bit/**/*.exe'
+      - '64bit/**/*.pdb'
+
+jobs:
+  sync-and-notify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        directory: ['32bit', '64bit']
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }} 
+          mask-aws-account-id: true
+      # NOTE: If begins to be slow, append --size-only
+      - name: Sync Files to S3
+        id: sync
+        run: |
+          aws s3 sync ./${{matrix.directory}} s3://${{ secrets.BUCKET_NAME }}/tests/${{ matrix.directory }} --exclude "*" --include "*.exe" --include "*.pdb" --no-progress
+          
+      # - name: Check Changes
+      #   id: changes
+      #   run: |
+      #     if [[ "${{ steps.sync.outputs.stdout }}" == *"copy"* || "${{ steps.sync.outputs.stdout }}" == *"delete"* ]]; then
+      #       echo "changes=true" >> $GITHUB_ENV
+      #     else
+      #       echo "changes=false" >> $GITHUB_ENV
+      #     fi
+
+      - name: Notify Discord
+        if: always()
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: 'Binaries updated in the S3 bucket!'
+          username: 'GitHub Actions'
+          status: ${{ job.status }}
+          description: 'Synchronized bucket with new additions or updated files.'
+          
+
