@@ -30,6 +30,7 @@ The test bins consist of tests from the following projects:
 - vulnerable windows drivers - https://github.com/namazso/physmem_drivers
 - VisualUEFI - https://github.com/ionescu007/VisualUefi
 - MultiWorldDemo - https://github.com/UNAmedia/ue5-multiworld-demo
+- FPChess - https://wiki.freepascal.org/fpChess
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
 
