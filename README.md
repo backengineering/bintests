@@ -29,6 +29,7 @@ The test bins consist of tests from the following projects:
 - corkami weird pe files - https://github.com/corkami/pocs/tree/master/PE/bin
 - vulnerable windows drivers - https://github.com/namazso/physmem_drivers
 - VisualUEFI - https://github.com/ionescu007/VisualUefi
+- MultiWorldDemo - https://github.com/UNAmedia/ue5-multiworld-demo
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
 

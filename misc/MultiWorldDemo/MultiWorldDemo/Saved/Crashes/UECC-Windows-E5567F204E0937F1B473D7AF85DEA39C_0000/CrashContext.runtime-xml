@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>985E77F246F351A89BE87A98FD6B428B</ExecutionGuid>
+<CrashGUID>UECC-Windows-E5567F204E0937F1B473D7AF85DEA39C_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: ScenePrimitiveInfo-&gt;LumenPrimitiveGroupIndices.Num() == 0  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\Lumen\LumenScene.cpp] [Line: 872] 
+
+Stack: 
+0x00007ff6cdf9bad6 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cdf4f448 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6ce60dec9 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cdb1e1c5 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6ce5d303f MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6ce5d3f7b MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6ce58dcd4 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6ce5adcee MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cc0e5754 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cc0e5c6e MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cf90a6e5 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cf90db89 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cc76fec2 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff6cc767cc0 MultiWorldDemo.exe!UnknownFunction []
+0x00007ff926b67344 KERNEL32.DLL!UnknownFunction []
+0x00007ff927de26b1 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>12836</ProcessId>
+<SecondsSinceStart>52</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-MultiWorldDemo</GameName>
+<ExecutableName>MultiWorldDemo</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-23901901+++UE5+Release-5.1</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-23901901</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-23901901-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/_xeroxz/Desktop/MultiWorldDemo/MultiWorldDemo/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/_xeroxz/Desktop/MultiWorldDemo/</RootDir>
+<MachineId>11D156EE48D8DF84A8A9EEAF4A306990</MachineId>
+<LoginId>11d156ee48d8df84a8a9eeaf4a306990</LoginId>
+<EpicAccountId>d67da03e0a82431ea9e50c7d45c13080</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>12</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>24</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1070</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.4170]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>103069937664</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>109512388608</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>96</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>87776833536</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>83154767872</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>736301056</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>764137472</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>4043055104</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>4043063296</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>6</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+MultiWorldDemo  0x00007ff6c94c0000 + 4adbad6         
+MultiWorldDemo  0x00007ff6c94c0000 + 4a8f448         
+MultiWorldDemo  0x00007ff6c94c0000 + 514dec9         
+MultiWorldDemo  0x00007ff6c94c0000 + 465e1c5         
+MultiWorldDemo  0x00007ff6c94c0000 + 511303f         
+MultiWorldDemo  0x00007ff6c94c0000 + 5113f7b         
+MultiWorldDemo  0x00007ff6c94c0000 + 50cdcd4         
+MultiWorldDemo  0x00007ff6c94c0000 + 50edcee         
+MultiWorldDemo  0x00007ff6c94c0000 + 2c25754         
+MultiWorldDemo  0x00007ff6c94c0000 + 2c25c6e         
+MultiWorldDemo  0x00007ff6c94c0000 + 644a6e5         
+MultiWorldDemo  0x00007ff6c94c0000 + 644db89         
+MultiWorldDemo  0x00007ff6c94c0000 + 32afec2         
+MultiWorldDemo  0x00007ff6c94c0000 + 32a7cc0         
+KERNEL32        0x00007ff926b50000 + 17344           
+ntdll           0x00007ff927d90000 + 526b1           
+</PCallStack>
+<PCallStackHash>B1E5369EB91DF151230CD1E9C5817F62E50653B2</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1070</RHI.AdapterName>
+<RHI.UserDriverVersion>536.23</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.3623</RHI.InternalDriverVersion>
+<RHI.DriverDate>6-8-2023</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>1B81</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
