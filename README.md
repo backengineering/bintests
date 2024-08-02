@@ -31,6 +31,7 @@ The test bins consist of tests from the following projects:
 - VisualUEFI - https://github.com/ionescu007/VisualUefi
 - MultiWorldDemo - https://github.com/UNAmedia/ue5-multiworld-demo
 - FPChess - https://wiki.freepascal.org/fpChess
+- loki testbins - https://github.com/RUB-SysSec/loki/tree/main/loki/testcases/real_world_crypto
 
 This also contains all sorts of misc tests aimed at breaking disassembly (recursive functions, functions that call each other, noreturn functions, all sorts of jump tables).
 
